@@ -3,6 +3,7 @@ package com.properclever.pir.util;
 import com.properclever.pir.domain.Point;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Optional;
 
@@ -53,7 +54,7 @@ public class EdgeCollapser {
     }
 
     private static class EdgeAccumulator {
-        private final List<Point> collapsed = new ArrayList<>();
+        private final List<Point> collapsed = new LinkedList<>();
 
         // We'll keep track of the "current direction" as a 2D vector
         // from the most recent corner to the current point.
