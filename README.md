@@ -12,19 +12,19 @@ A Java tool to determine if a point is inside a rectangular shape, given an orde
 
 ### Installation & Build
 1.	Clone the Repository.
-2.	Build the Project with Maven (you'll need to have JAVA_HOME pointing to sdk21):
-
-    export JAVA_HOME=$(/usr/libexec/java_home -v 21)
-    mvn clean package
-
+2.	Build the Project with Maven (you'll need to have `JAVA_HOME` pointing to sdk21):
+```
+export JAVA_HOME=$(/usr/libexec/java_home -v 21)
+mvn clean package
+```
 This command compiles the project and creates a JAR file in the target/ directory (e.g., /path/to/project/target/th-point-in-rectangle-1.0-SNAPSHOT.jar).
 
 ### Running the Application
 Once built, we can execute the JAR.
 Run the JAR file using the JDK 21 runtime with preview features enabled:
-
-    $JAVA_HOME/bin/java --enable-preview -jar /path/to/project/target/th-point-in-rectangle-1.0-SNAPSHOT.jar
-
+```
+$JAVA_HOME/bin/java --enable-preview -jar /path/to/project/target/th-point-in-rectangle-1.0-SNAPSHOT.jar
+```
 ## Using the Tool
 
 After building the project and creating the executable JAR, you can run the tool on the command line. When executed, the tool presents a menu-based interface that guides you through the available options. Here’s how to interact with it:
