@@ -39,6 +39,7 @@ After building the project and creating the executable JAR, you can run the tool
     This option quits the program.
 
 #### Solution Menu
+![Main menu](assets/tool_screen_main_menu.png)
    Once you select either the Basic or General Solution, you are presented with a solution menu. The solution menu includes:
   - **[1] Enter a shape and point to test:**  
     This interactive mode allows you to manually enter:
@@ -55,14 +56,17 @@ After building the project and creating the executable JAR, you can run the tool
     Returns you to the main menu.
   - **[9] Exit:**  
     Exits the program.
+![Executing the pre-configured examples](assets/tool_screen_basic_examples.png)
 
 #### Interactive Testing
+![Entering an example into the basic (orthogonal) interactive mode](assets/tool_screen_basic_interactive.png)
    When using interactive testing:
   - You will be prompted to enter a shape and a point.
   - The tool will then process the input and display one of the following messages:
     - **TRUE! Point inside Rectangle**, if the point is strictly inside the shape.
     - **FALSE! Point outside Rectangle (or invalid Rectangle)**, if the point is not strictly inside or if the shape is not valid.
   - After the result is displayed, you’ll have the option to test another case or return to the solution menu by typing `menu`.
+    ![Entering an example into the general interactive mode](assets/tool_screen_general_interactive.png)
 
 #### Exiting the Tool:
    You can exit (when not actively entering interactive input) by selecting option **9** from either the solution menu or the main menu. Otherwise, `ctrl`+`c`.
